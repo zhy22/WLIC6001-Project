@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANU Rankings &amp; Higher Education Industry Trends Report</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;color:#1a1a2e;background:#fff;line-height:1.7;font-size:15px}
+.page{max-width:900px;margin:0 auto;padding:40px 32px}
+.cover{text-align:center;padding:80px 20px 60px;border-bottom:3px solid #1a3a5c}
+.cover h1{font-size:28px;font-weight:700;color:#1a3a5c;margin-bottom:8px}
+.cover h2{font-size:18px;font-weight:400;color:#4a6fa5;margin-bottom:24px}
+.cover .meta{font-size:13px;color:#888;margin-top:16px}
+h2{font-size:20px;font-weight:600;color:#1a3a5c;margin:40px 0 12px;padding-bottom:6px;border-bottom:1.5px solid #e0e6ed}
+h3{font-size:16px;font-weight:600;color:#2c5282;margin:28px 0 10px}
+p{margin-bottom:14px}
+.chart-container{position:relative;width:100%;margin:20px 0 32px;background:#fafbfc;border:1px solid #e8ecf1;border-radius:10px;padding:20px 16px 12px}
+.chart-container canvas{max-height:380px}
+.chart-title{font-size:14px;font-weight:600;color:#1a3a5c;margin-bottom:4px}
+.chart-subtitle{font-size:12px;color:#6b7b8d;margin-bottom:12px}
+.insight-box{background:#f0f5ff;border-left:4px solid #4a6fa5;padding:14px 18px;margin:16px 0 20px;border-radius:0 8px 8px 0;font-size:14px;color:#2c4a6e}
+.insight-box strong{color:#1a3a5c}
+table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:13px}
+th{background:#1a3a5c;color:#fff;padding:8px 12px;text-align:left;font-weight:500}
+td{padding:7px 12px;border-bottom:1px solid #e8ecf1}
+tr:nth-child(even) td{background:#f7f9fb}
+.source-list{margin:12px 0 20px;padding-left:24px;font-size:13px;color:#555}
+.source-list li{margin-bottom:4px}
+.footer{margin-top:48px;padding-top:16px;border-top:1.5px solid #e0e6ed;font-size:12px;color:#999;text-align:center}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:700px){.two-col{grid-template-columns:1fr}}
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;font-weight:500;margin-left:4px}
+.badge-up{background:#dcfce7;color:#166534}
+.badge-down{background:#fee2e2;color:#991b1b}
+.badge-stable{background:#f3f4f6;color:#6b7280}
+.toc{margin:20px 0 40px;padding:20px 24px;background:#f7f9fb;border-radius:8px}
+.toc h3{margin:0 0 10px;font-size:15px;color:#1a3a5c}
+.toc ol{padding-left:20px;font-size:14px;color:#4a6fa5}
+.toc li{margin-bottom:4px}
+.toc a{color:#4a6fa5;text-decoration:none}
+.toc a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="page">
+ 
+<div class="cover">
+<h1>ANU Rankings &amp; Higher Education Industry Trends</h1>
+<h2>Hongyu Zhou</h2>
+<div class="meta">Prepared: March 2026 | Based on QS, THE, US News, ARWU, and CWUR data (2016–2026)</div>
+</div>
+ 
+<div class="toc">
+<h3>Contents</h3>
+<ol>
+<li><a href="#s1">Executive summary</a></li>
+<li><a href="#s2">ANU overall ranking trajectory across providers (2016–2026)</a></li>
+<li><a href="#s3">ANU subject ranking trends (QS by subject, 2021–2025)</a></li>
+<li><a href="#s4">Global higher education trends</a></li>
+<li><a href="#s5">Australian higher education trends</a></li>
+<li><a href="#s6">South Asian higher education trends</a></li>
+<li><a href="#s7">Quantitative sources for further analysis</a></li>
+<li><a href="#s8">Conclusion and outlook</a></li>
+</ol>
+</div>
+ 
+<!-- SECTION 1 -->
+<h2 id="s1">1. Executive Summary</h2>
+<p>The Australian National University (ANU) has experienced a consistent decline in its overall world university rankings across all major providers since its peak in 2016–2017. In the QS World University Rankings, ANU dropped from #19 (2016) to #32 (2026); in the THE World University Rankings, from #47 (2017) to #73 (2026). This decline is not primarily driven by deterioration in ANU's absolute performance. Its QS overall score of 87.4 in 2026 was actually the highest in six years, but rather by the rapid rise of competitors, particularly from Asia (China, India, Malaysia, and Thailand).</p>
+<p>At the subject level, the picture is more nuanced. ANU maintains world-leading positions in humanities and social sciences (Philosophy #8, Anthropology #9, Politics #11), while STEM subjects like Engineering and Computer Science show improvement trends. This report examines how these ranking dynamics interact with broader higher education industry trends globally, in Australia, and in South Asia.</p>
+ 
+<!-- SECTION 2 -->
+<h2 id="s2">2. ANU Overall Ranking Trajectory Across Providers (2016–2026)</h2>
+<p>The chart below plots ANU's overall world ranking from five major ranking providers. Lower values indicate better (higher) positions. The general pattern is a gradual decline across all systems, with the sharpest drop in THE rankings and a more moderate slide in QS.</p>
+ 
+<div class="chart-container">
+<div class="chart-title">Figure 1: ANU overall world ranking by provider (2016–2026)</div>
+<div class="chart-subtitle">Lower rank = better position. Data compiled from QS, THE, US News, ARWU, and CWUR.</div>
+<canvas id="chartOverall"></canvas>
+</div>
+ 
+<div class="insight-box">
+<strong>Key observation:</strong> ANU's QS and THE trajectories diverge noticeably after 2020. QS rankings fluctuated between #27 and #34 (2022–2026), while THE fell more steeply from #50 to #73. This divergence reflects different methodological emphases: QS weights academic reputation (30%) and employer reputation (15%) heavily, where ANU's brand remains strong, while THE places greater weight on research environment (29%) and research quality (30%), areas where intensifying Asian competition has eroded ANU's relative standing.
+</div>
+ 
+<table>
+<tr><th>Provider</th><th>Peak rank</th><th>Peak year</th><th>2025/26 rank</th><th>Change</th></tr>
+<tr><td>QS World</td><td>#19</td><td>2016</td><td>#32 (2026)</td><td><span class="badge badge-down">-13</span></td></tr>
+<tr><td>THE World</td><td>#47</td><td>2017</td><td>#73 (2026)</td><td><span class="badge badge-down">-26</span></td></tr>
+<tr><td>US News</td><td>#66</td><td>2019</td><td>#86 (2025)</td><td><span class="badge badge-down">-20</span></td></tr>
+<tr><td>ARWU (Shanghai)</td><td>#66</td><td>2019</td><td>#101–150 (2025)</td><td><span class="badge badge-down">-50+</span></td></tr>
+<tr><td>CWUR</td><td>#74</td><td>2019</td><td>#90 (2025)</td><td><span class="badge badge-down">-16</span></td></tr>
+</table>
+ 
+<!-- SECTION 3 -->
+<h2 id="s3">3. ANU Subject Ranking Trends (QS by Subject, 2021–2025)</h2>
+<p>While ANU's overall rank has declined, its subject-level performance is more varied. ANU has more subjects in the world top 10 than any other Australian university. The charts below show ranking trajectories for selected subjects grouped into two categories: humanities/social sciences (where ANU is strongest) and STEM/professional fields.</p>
+ 
+<div class="chart-container">
+<div class="chart-title">Figure 2: ANU QS subject rankings — humanities &amp; social sciences (2021–2025)</div>
+<div class="chart-subtitle">Lower rank = better position. Subjects where ANU holds top-20 global positions.</div>
+<canvas id="chartHumanities"></canvas>
+</div>
+ 
+<div class="insight-box">
+<strong>Key observation:</strong> ANU's humanities and social science subjects have remained remarkably stable or improved, even as overall rankings fell. Philosophy improved from #11 to #8, and Politics from #13 to #11. This resilience reflects ANU's deep expertise in these fields and its proximity to Australia's policy-making centre in Canberra, which supports strong academic and employer reputation scores in these disciplines.
+</div>
+ 
+<div class="chart-container">
+<div class="chart-title">Figure 3: ANU QS subject rankings — STEM &amp; professional fields (2021–2025)</div>
+<div class="chart-subtitle">Lower rank = better position. Engineering &amp; Technology improved; Computer Science showed volatility.</div>
+<canvas id="chartSTEM"></canvas>
+</div>
+ 
+<div class="insight-box">
+<strong>Key observation:</strong> Engineering and Technology improved from #79 (2021) to #76 (2025), while Computer Science showed volatility (ranging from #37 to #55). Law maintained strong rankings in the #22–26 band. The STEM trajectory is more competitive, with rapidly expanding Asian institutions directly challenging ANU's research output and citation metrics in these fields.
+</div>
+ 
+<!-- SECTION 4 -->
+<h2 id="s4">4. Global Higher Education Trends</h2>
+ 
+<h3>4.1 The rise of Asian competitors</h3>
+<p>The most significant global trend affecting ANU's ranking is the rapid ascent of Asian universities. The global education market is projected to reach US$10 trillion by 2030, with the highest growth in Central and Southern Asia, where tertiary enrolment increased 268% between 2000 and 2020. India alone added over 22,000 higher education institutions between 2006 and 2018, accounting for 74% of global growth in institution counts. Chinese universities now dominate several QS indicator categories, particularly citations per faculty and international research networks.</p>
+<p>For ANU, this means that absolute improvements in research quality and reputation can still result in ranking declines when competitors improve faster. ANU's QS overall score of 87.4 in 2026 was its highest in six years, yet its rank dropped from #30 to #32.</p>
+ 
+<h3>4.2 Shift toward skills-based and career-aligned education</h3>
+<p>Globally, there is a structural shift away from traditional degree models toward micro-credentials, stackable credentials, and career-aligned programmes. According to Deloitte's 2025 Higher Education Trends report, 47% of Americans believe a four-year degree is worth the cost without loans, while 76% of trade school graduates consider their education worthwhile. The US is projected to see a 13% decline in college enrollment from 2025 through 2041.</p>
+<p>This trend affects ANU's employer reputation and employment outcomes indicators (which account for 20% of the QS methodology). ANU's relatively academic, research-intensive profile is a strength in traditional metrics but may be challenged as ranking systems increasingly weight employability and practical outcomes.</p>
+ 
+<h3>4.3 International student mobility shifts</h3>
+<p>International student enrollments at American colleges fell 17% in fall 2025, with concerns about visa restrictions and a slowing global economy. This has created opportunities for Australian universities to attract students previously bound for the US, but also intensified competition among destination countries (UK, Canada, Australia, and increasingly Asian hubs like Malaysia and Singapore).</p>
+ 
+<!-- SECTION 5 -->
+<h2 id="s5">5. Australian Higher Education Trends</h2>
+ 
+<h3>5.1 Australia-wide ranking decline</h3>
+<p>ANU's ranking decline is not isolated — it reflects a broader Australian trend. In the QS 2026 rankings, 69% of Australian universities declined in standing, compared to 60% for the UK and 31% for the US. Five of the eight Group of Eight universities dropped in rank. However, Australia remains third globally (behind the US and UK) in the number of institutions ranked in the top 50, top 100, and top 200.</p>
+ 
+<h3>5.2 International student composition</h3>
+<p>In YTD November 2025, 843,552 international students studied in Australia, a 0.4% decline from 2024. New student commencements declined by 15%. The top five source countries are China (23%), India (17%), Nepal (8%), Vietnam (4%), and the Philippines (4%). Three of these five — India, Nepal, and the Philippines — are South Asian or closely related markets, making these regional trends directly relevant to ANU's international student ratio (a QS indicator where ANU scores ~90/100).</p>
+ 
+<h3>5.3 ANU's size as a structural constraint</h3>
+<p>ANU is relatively small compared to other Go8 universities, with approximately 17,380 students (vs. Melbourne's 65,000+ or Sydney's 73,000+). ANU itself acknowledges that "being relatively smaller than other leading Australian universities provides a human-scale environment and a strong sense of community. However, this can work against us under some rankings criteria that prioritise scale." This particularly affects faculty-student ratio, employer reputation (fewer graduates in the workforce), and raw publication volumes.</p>
+ 
+<!-- SECTION 6 -->
+<h2 id="s6">6. South Asian Higher Education Trends</h2>
+ 
+<h3>6.1 India's explosive institutional growth</h3>
+<p>India's gross enrolment ratio in higher education rose from 23.7% in 2014-15 to 28.4% in 2021-22, with total enrolment reaching 4.33 crore (43.3 million). India added over 22,000 institutions between 2006 and 2018. Several Indian institutions (particularly the IITs and IISc) have risen significantly in QS and THE rankings, directly competing with ANU in STEM subjects. This is reflected in QS's 2026 observation that "universities in Asia, particularly India, China, Malaysia and Thailand have demonstrated significant improvement."</p>
+ 
+<h3>6.2 Nepal and South Asia as student source markets</h3>
+<p>Nepal is Australia's third-largest student source country (8% of international students). South Asian students collectively represent a significant share of ANU's international cohort, influencing its international student ratio score. Any policy changes such as Australian visa restrictions or competition from emerging regional hubs directly impact this indicator. The 15% decline in new student commencements in Australia during 2025 is partly attributed to tighter student visa processing.</p>
+ 
+<h3>6.3 Research collaboration pathways</h3>
+<p>South Asian institutions are increasingly active in international research networks. ANU's international research network score (QS: ~85/100) could benefit from deepening collaboration with South Asian universities, particularly as the region's research output grows rapidly. The number of internationally mobile students from Central and Southern Asia has increased substantially, creating a larger pool of potential postgraduate researchers and collaborators.</p>
+ 
+<!-- SECTION 7 -->
+<h2 id="s7">7. Quantitative Data Sources for Further Analysis</h2>
+<p>The following table maps the key ranking sub-indicators to the most relevant quantitative data sources for studying the interactions identified in this report.</p>
+ 
+<table>
+<tr><th>Ranking indicator</th><th>Primary data source(s)</th><th>Geographic scope</th></tr>
+<tr><td>Academic reputation</td><td>QS Academic Reputation Survey; Scopus publication counts</td><td>Global</td></tr>
+<tr><td>Employer reputation</td><td>QS Employer Survey; QILT Graduate Outcomes Survey (Aust.)</td><td>Global + Australia</td></tr>
+<tr><td>Citations per faculty</td><td>Scopus/SciVal; Clarivate InCites; CWTS Leiden</td><td>Global</td></tr>
+<tr><td>International students</td><td>PRISMS (Aust. Dept of Education); UNESCO UIS mobility data</td><td>Australia + Global</td></tr>
+<tr><td>International staff</td><td>Dept of Education staff statistics; Dept of Home Affairs visa data</td><td>Australia</td></tr>
+<tr><td>Faculty-student ratio</td><td>Dept of Education Higher Education Statistics; OECD EAG</td><td>Australia + OECD</td></tr>
+<tr><td>Research output / quality</td><td>Scopus; Web of Science; Nature Index; CWTS Leiden</td><td>Global</td></tr>
+<tr><td>Employment outcomes</td><td>QILT Graduate Outcomes Survey; LinkedIn Economic Graph</td><td>Australia + Global</td></tr>
+<tr><td>Sustainability</td><td>QS Sustainability Rankings; THE Impact Rankings</td><td>Global</td></tr>
+<tr><td>South Asian competition</td><td>AISHE (India); UGC data (India, Nepal, Sri Lanka, Bangladesh)</td><td>South Asia</td></tr>
+<tr><td>Student mobility trends</td><td>PRISMS; UNESCO UIS; IIE Project Atlas; OECD EAG</td><td>Global + Australia</td></tr>
+<tr><td>HE market sizing</td><td>HolonIQ Global Education Outlook; Technavio market reports</td><td>Global</td></tr>
+</table>
+ 
+<!-- SECTION 8 -->
+<h2 id="s8">8. Conclusion</h2>
+<p>ANU's ranking trajectory reflects the intersection of three forces: (1) intensifying global competition, especially from Asian universities benefiting from massive government investment and rapid institutional growth; (2) a broader weakening of Australian university rankings as a cohort, driven by relative declines in reputation and international outlook; and (3) ANU-specific structural factors, particularly its smaller size relative to peer institutions.</p>
+
+<div class="footer">
+<p>Report prepared March 2026. Sources: QS World University Rankings (2012–2026), Times Higher Education World University Rankings (2016–2026), US News Best Global Universities (2019–2025), ARWU Shanghai Rankings (2019–2025), CWUR (2019–2025), Australian Department of Education, UNESCO UIS, OECD Education at a Glance, ANU official publications.</p>
+</div>
+ 
+</div>
+ 
+<script>
+const years2016to2026 = ['2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026'];
+const commonOpts = {
+  responsive: true,
+  maintainAspectRatio: false,
+  scales: {
+    y: { reverse: true, title: { display: true, text: 'World Rank (lower = better)', font: { size: 12 } }, grid: { color: '#eee' } },
+    x: { grid: { display: false } }
+  },
+  plugins: {
+    legend: { position: 'bottom', labels: { usePointStyle: true, padding: 14, font: { size: 12 } } },
+    tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: #${ctx.parsed.y}` } }
+  },
+  elements: { point: { radius: 4, hoverRadius: 6 }, line: { tension: 0.3 } }
+};
+ 
+// Chart 1: Overall rankings
+new Chart(document.getElementById('chartOverall'), {
+  type: 'line',
+  data: {
+    labels: years2016to2026,
+    datasets: [
+      { label: 'QS World', data: [19,22,20,24,29,31,27,30,34,30,32], borderColor: '#2563eb', backgroundColor: '#2563eb', borderWidth: 2.5 },
+      { label: 'THE World', data: [52,47,48,49,50,59,54,62,67,73,73], borderColor: '#7c3aed', backgroundColor: '#7c3aed', borderWidth: 2.5 },
+      { label: 'US News', data: [null,null,null,66,69,64,56,67,80,85,86], borderColor: '#059669', backgroundColor: '#059669', borderWidth: 2, borderDash: [5,3] },
+      { label: 'ARWU', data: [null,null,null,66,76,76,77,84,83,125,null], borderColor: '#d97706', backgroundColor: '#d97706', borderWidth: 2, borderDash: [5,3] },
+      { label: 'CWUR', data: [null,null,null,74,80,81,82,84,89,90,null], borderColor: '#dc2626', backgroundColor: '#dc2626', borderWidth: 1.5, borderDash: [3,3] }
+    ]
+  },
+  options: { ...commonOpts, scales: { ...commonOpts.scales, y: { ...commonOpts.scales.y, min: 10, max: 140 } } }
+});
+ 
+// Chart 2: Humanities subject rankings
+const subjYears = ['2021','2022','2023','2024','2025'];
+new Chart(document.getElementById('chartHumanities'), {
+  type: 'line',
+  data: {
+    labels: subjYears,
+    datasets: [
+      { label: 'Philosophy', data: [11,9,8,8,8], borderColor: '#2563eb', backgroundColor: '#2563eb', borderWidth: 2.5 },
+      { label: 'Anthropology', data: [12,10,9,9,9], borderColor: '#7c3aed', backgroundColor: '#7c3aed', borderWidth: 2.5 },
+      { label: 'Politics', data: [13,11,10,10,11], borderColor: '#059669', backgroundColor: '#059669', borderWidth: 2.5 },
+      { label: 'Archaeology', data: [12,11,10,10,10], borderColor: '#d97706', backgroundColor: '#d97706', borderWidth: 2 },
+      { label: 'Development Studies', data: [14,12,13,12,14], borderColor: '#dc2626', backgroundColor: '#dc2626', borderWidth: 2 },
+      { label: 'History', data: [15,14,13,12,13], borderColor: '#0891b2', backgroundColor: '#0891b2', borderWidth: 2, borderDash: [5,3] },
+      { label: 'Sociology', data: [20,18,17,17,17], borderColor: '#be185d', backgroundColor: '#be185d', borderWidth: 1.5, borderDash: [5,3] }
+    ]
+  },
+  options: { ...commonOpts, scales: { ...commonOpts.scales, y: { ...commonOpts.scales.y, min: 1, max: 25 } } }
+});
+ 
+// Chart 3: STEM subject rankings
+new Chart(document.getElementById('chartSTEM'), {
+  type: 'line',
+  data: {
+    labels: subjYears,
+    datasets: [
+      { label: 'Law', data: [24,22,23,22,26], borderColor: '#2563eb', backgroundColor: '#2563eb', borderWidth: 2.5 },
+      { label: 'Natural Sciences', data: [38,36,34,33,34], borderColor: '#059669', backgroundColor: '#059669', borderWidth: 2.5 },
+      { label: 'Computer Science', data: [41,38,44,55,37], borderColor: '#7c3aed', backgroundColor: '#7c3aed', borderWidth: 2.5 },
+      { label: 'Earth & Marine Sciences', data: [12,10,9,10,12], borderColor: '#0891b2', backgroundColor: '#0891b2', borderWidth: 2 },
+      { label: 'Engineering & Technology', data: [79,64,80,86,76], borderColor: '#d97706', backgroundColor: '#d97706', borderWidth: 2 },
+      { label: 'Economics', data: [42,38,38,44,46], borderColor: '#dc2626', backgroundColor: '#dc2626', borderWidth: 2, borderDash: [5,3] },
+      { label: 'Mathematics', data: [50,48,48,51,51], borderColor: '#be185d', backgroundColor: '#be185d', borderWidth: 1.5, borderDash: [5,3] }
+    ]
+  },
+  options: { ...commonOpts, scales: { ...commonOpts.scales, y: { ...commonOpts.scales.y, min: 1, max: 100 } } }
+});
+</script>
+</body>
+</html>
