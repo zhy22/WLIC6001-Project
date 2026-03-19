@@ -26,7 +26,7 @@ This work was developed as part of coursework or an independent research compone
 ## How to View the Proposal
 
 1. **Recommended**: Click the file directly in GitHub:  
-   👉 [proposal for research.html](https://github.com/zhy22/WLIC6001-Project/blob/main/proposal%20for%20research.html)  
+   👉 [research.html](https://ausheanu.oneapp.dev/)  
    GitHub renders the HTML file nicely with formatting preserved.
 
 2. Download the HTML file and open it in any modern web browser (Chrome, Firefox, Edge, etc.).
