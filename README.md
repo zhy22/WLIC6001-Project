@@ -1,4 +1,4 @@
-# WLIC6001 Project - Research Proposal
+# WLIC6001 Project
 
 This repository contains materials for the **WLIC6001** course project.
 
