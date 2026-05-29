@@ -1,4 +1,12 @@
 # ANU Transnational Education (TNE) Pivot
+---
+> *"Being relatively smaller than other leading Australian universities provides a human-scale environment and a strong sense of community. However, this can work against us under some rankings criteria that prioritise scale."*
+> — Australian National University, "Rankings in focus" (2024)
+
+The whole argument of this analysis is that the rankings criteria are not the only thing being prioritised by scale — and that a structured TNE programme is the cleanest path to scaling internationally without consuming a single NOSC place.
+
+---
+
 <img width="2669" height="1396" alt="image" src="https://github.com/user-attachments/assets/ff312286-82dd-4c30-9101-32d35099a14d" />
 
 > A data-driven consulting case study examining whether the **Australian National University (ANU)** should expand into transnational education (TNE) — and how — to address its declining international student revenue under Australia's NOSC cap regime.
@@ -266,7 +274,4 @@ Released under the [MIT License](LICENSE). Data files retain their original lice
 
 ---
 
-> *"Being relatively smaller than other leading Australian universities provides a human-scale environment and a strong sense of community. However, this can work against us under some rankings criteria that prioritise scale."*
-> — Australian National University, "Rankings in focus" (2024)
 
-The whole argument of this analysis is that the rankings criteria are not the only thing being prioritised by scale — and that a structured TNE programme is the cleanest path to scaling internationally without consuming a single NOSC place.
