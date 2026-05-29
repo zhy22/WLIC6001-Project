@@ -82,6 +82,26 @@ Two convergent findings on one page. **Left:** ANU's overseas EFTSL of 7,086 is 
 
 
 ANU's actual enrolment trajectory (2020–2024) joined to two projection scenarios. Without TNE, ANU stays flat at 22,939. With a combined Vietnam twinning + India branch campus programme, ANU could add 2,000–2,500 students by Year 5, generating ≈A$30–50M in NOSC-exempt revenue — sufficient to offset the current A$46M shortfall and add 9–11% to total enrolments.
+## Competitor analysis: ANU vs Go8 and non-Go8 comparators
+
+A single four-panel view consolidates the strategic position of ANU against its Go8 peers and the offshore-active comparator set. The chart compresses four otherwise separate findings into one paste-ready figure for the report and slide deck.
+
+<img width="1316" height="902" alt="image" src="https://github.com/user-attachments/assets/953f80f0-4ddc-419d-9832-0f5489ccd4cb" />
+
+
+**Panel A — Overseas EFTSL: ANU is the smallest in the Go8.** Even held against just the top of the Go8, ANU's 7,086 overseas student EFTSL in 2024 is roughly 21% of Monash's 33,869. This is not a function of total institutional scale (ANU and UWA are similarly sized overall) but a structural under-investment in the international channel. The implication: ANU does not need a new market to grow — it needs to use the international channel that peers have already proven.
+
+**Panel B — Onshore enrolment trajectory: ANU is the only Go8 contracting.** Between 2020 and 2024, ANU's total enrolment fell 5.7% (from 24,336 to 22,939), while UWA — the closest size comparator — grew 21.1%. Every other Go8 grew in the same window. ANU is therefore not facing a sector-wide demographic headwind; it is losing share within a growing peer group.
+
+**Panel C — Offshore footprint: ANU is the only Go8 with zero TNE delivery.** Monash (Malaysia: 10,000+ students from 85 countries; new KL campus for 22,500 students, announced at RM2.8bn) and RMIT (Vietnam: ~23,000 students at a standalone branch) anchor the upper end. Deakin's GIFT City India campus is operational. Wollongong, WSU, Victoria, and UWA hold approved or operational Indian campuses. ANU is alone in this peer set with no announced TNE entry — quantifying a 12–18 month first-mover gap to close.
+
+**Panel D — Demand growth concentrated in fields where ANU is sub-scale.** Sector-wide overseas demand grew 59.8% in Education and 21.7% in IT between 2023 and 2024. ANU has only 1,845 IT students (7.4% of its enrolment) and minimal Education enrolment. The corollary — shown in the inset — is that ANU's QS-leading subjects (Philosophy #8, Anthropics #9, Archaeology #10, Politics #11, Development Studies #14) are policy, governance, and humanities fields that no other Australian TNE provider currently serves. The strategic option is therefore not to compete head-to-head on the high-growth STEM fields where peers have first-mover advantage, but to build TNE programmes around the differentiated policy/governance niche where ANU is world-leading and the competitive set is empty.
+
+Read together, the four panels make the case for TNE entry without further inference: ANU has the smallest international channel of any Go8, the only declining domestic enrolment, the only empty offshore footprint, and a subject-mix that is simultaneously sub-scale in the highest-growth fields and uniquely differentiated in the highest-margin niche. TNE is the channel that resolves all four positions at once.
+
+---
+
+*Sources: Australian Department of Education 2024 (Higher Education Student Statistics, Section 7, Tables 7.2 and 7.5; perturbed pivot 2020–2024); PM Albanese 2025 Monash KL launch; QS World University Rankings by Subject 2025; institutional disclosures (Deakin, UWA, Wollongong, WSU, Victoria, RMIT).*
 <img width="1701" height="2961" alt="image" src="https://github.com/user-attachments/assets/b6da65bc-f87c-4c0c-abae-3b5dc85ad00a" />
 
 ---
