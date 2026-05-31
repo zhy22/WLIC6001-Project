@@ -58,7 +58,7 @@ The central question this analysis answers: **given that ANU has reached only 76
 
 ### ANU has shrunk while most Go8 peers have grown
 
-<img width="1995" height="1792" alt="image" src="https://github.com/user-attachments/assets/883eb6a3-4735-4ca2-9108-c3a3c835e143" />
+<img width="1635" height="972" alt="image" src="https://github.com/user-attachments/assets/fcd63a11-482e-474a-84ab-fd9a2eb6d2e2" />
 
 
 ANU's total enrolment fell from 24,336 (2020) to 22,939 (2024) — a −5.7% contraction — while every other Go8 university grew. UNSW added the most absolute volume (+19,000 students), and even UWA, ANU's closest size comparator, expanded by 21.1%. ANU's QS overall score of 87.4 in 2026 was its highest in six years, yet its rank fell from #19 (2016) to #32 (2026) because peer institutions improved faster.
