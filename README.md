@@ -7,7 +7,7 @@ The whole argument of this analysis is that the rankings criteria are not the on
 
 ---
 
-<img width="2669" height="1396" alt="image" src="https://github.com/user-attachments/assets/ff312286-82dd-4c30-9101-32d35099a14d" />
+<img width="2669" height="1396" alt="image" src="https://github.com/user-attachments/assets/e5888f54-3764-425b-942a-f057e1706fc9" />
 
 > A data-driven consulting case study examining whether the **Australian National University (ANU)** should expand into transnational education (TNE) — and how — to address its declining international student revenue under Australia's NOSC cap regime.
 
